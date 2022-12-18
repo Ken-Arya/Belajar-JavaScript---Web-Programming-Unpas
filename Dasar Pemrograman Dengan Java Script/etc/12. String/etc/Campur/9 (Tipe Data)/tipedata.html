@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipe Data</title>
+</head>
+
+<body>
+    <h1>Open console please</h1>
+    <script>
+        console.log('1. Angka tanpa desimal', '\n',
+            10, '\n',
+            999999999999999, '\n',
+            9999999999999999, 'pecahan diatas 16 digit akan dibulatkan');
+
+        console.log('2. Angka dengan desimal', '\n',
+            '0.3 + 0.7 = ', 0.3 + 0.7, '\n',
+            '0.2 + 0.1 = ', 0.2 + 0.1, 'pecahan terkecil sebenarnya ada');
+
+        console.log('3. Eksponen', '\n',
+            '123e5 = ', 123e5, '\n',
+            '123e-5 = ', 123e-5);
+
+        console.log('JANGAN PERNAH!!', '\n',
+            '1. Mengawali dengan angka 0, karena akan dianggap bilangan oktal. Contoh angka 022 = ', 022, '\n',
+            '2. Mengawali dengan angka 0xFF, karena akan dianggap bilangan hexadesimal. Contoh angka 0xFF = ', 0xFF,
+            '\n',
+            '3. Membagi sebuah bilangan dengan string, tapi isinya angka karena akan dihitung juga. Contoh 100/"10" = ',
+            100 / "10");
+
+        console.log('Angka Spesial', '\n',
+            '1. Infinity. Contoh pembagian 2/0 = ', 2 / 0, '\n',
+            '2. -Infinity. Contoh pembagian -2/0 = ', -2 / 0, '\n',
+            '3. NaN (Not a Number). Contoh pembagian 0/0 = ', 0 / 0, '\n',
+            'Contoh pembagian 100/"apel" = ', 100 / "apel", '\n');
+    </script>
+</body>
+
+</html>
